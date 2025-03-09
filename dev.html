@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo">
+        <img src="./static/icons/pokeball.svg" alt="Иконка покебола" />
+      </div>
+      <div class="menu">
+        <a class="menu__item" href="#">
+          <img src="./static/icons/search.svg" alt="Иконка поиска" />
+          Покепоиск
+        </a>
+        <a class="menu__item" href="#favourites">
+          <img src="./static/icons/pokemon-gotcha.svg" alt="Иконка покебола" />
+          Пойманные
+          <div class="menu__counter">${this.appState.favorites.length}</div>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
